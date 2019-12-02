@@ -159,11 +159,15 @@ header {
     text-align: center;
     color: white;
     .header-content {
+        background-color: black;
+        opacity: 0.8;
         position: relative;
         text-align: center;
         padding: 100px 15px 100px;
         width: 100%;
         .header-content-inner {
+            margin-top: 30px;
+            margin-bottom: 30px;
             h1 {
                 font-weight: 700;
                 text-transform: uppercase;
@@ -348,4 +352,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
